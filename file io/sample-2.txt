@@ -1,0 +1,3 @@
+This is how PROs write in a text file 😎 .
+A newer way to write content at the last..
+ Here's something wrote through promises.

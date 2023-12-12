@@ -1,0 +1,19 @@
+npm install <package name> [-g => global, --save-dev => as dev dependency, --no-save, --save-optional, --no-optional etc.]
+npm install <package name>@<version> => for a specific version
+npm update => update all dependencies of package.json to the constraints we've provided
+npm update <package name> => updates specific package
+npm run <task-name> => run the scripts of/in package.json
+npm list => list all the dependencies of our package
+npm view <package name> version => version of that package 
+npm uninstall <package name> => uninstalls
+npm help => Helps ;p
+
+
+====================
+    Semantic Versioning
+    #in package.json:
+    "express":"^4.18.2" ==> X.Y.Z => X(4)=Major version; Y(18)=Minor Version; Z(2)=Patch version
+
+    "^" means if we were to run npm update <package> it'll only update the minor or patch version and won't update the major version i.e. it can become 4.18.3 but never 5.0.0
+
+    "~" means to only npm update will only/can only update the patch version, not even the minor version can be changed
